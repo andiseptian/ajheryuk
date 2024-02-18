@@ -1,3 +1,4 @@
+import 'package:carousel_slider/carousel_controller.dart';
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
@@ -20,4 +21,6 @@ class HomeController extends GetxController {
   }
 
   void increment() => count.value++;
+
+  CarouselController carouselController = CarouselController();
 }
