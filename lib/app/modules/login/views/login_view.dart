@@ -1,3 +1,4 @@
+import 'package:ajheryuk/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -38,7 +39,7 @@ class LoginView extends GetView<LoginController> {
           Container(
               width: Get.width,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => Get.offAllNamed(Routes.HOME),
                 child: Text(
                   "Log In",
                   style: TextStyle(color: Colors.white),
